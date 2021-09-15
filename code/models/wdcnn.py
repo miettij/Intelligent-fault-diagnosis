@@ -8,6 +8,13 @@ from torch.nn.modules import conv
 from torch.nn.modules.utils import _single, _pair
 import math
 
+"""The following functions/classes are based on (https://github.com/yechengxi/deconvolution):
+- isqrt_newton_schulz_autograd
+- Delinear
+- FastDeconv
+
+"""
+
 
 class ConvLayer(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=1):
