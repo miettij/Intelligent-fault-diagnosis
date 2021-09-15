@@ -1,0 +1,5 @@
+
+Motor load: A
+Epoch: 0, average train CE 1.6341, average val CE 0.8311
+Epoch: 1, average train CE 1.2004, average val CE 0.2860
+Epoch: 2, average train CE 0.9653, average val CE 0.1357
