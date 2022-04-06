@@ -20,7 +20,7 @@ def parse_args():
 
     parser.add_argument('-a','--arch', default='vgg11', help='architecture')
     parser.add_argument('--dataset', default='cifar10', help='dataset(cifar10|cifar100|svhn|stl10|mnist)')
-    parser.add_argument('--DE-FE', default = False, type=distutils.util.strtobool)
+    parser.add_argument('--DE-FE', default = False, type=distutils.util.strtobool, help = 'Run CWRU tests with drive-end data if False or with fan-end and drive-end data if True')
     parser.add_argument('--fset', default = '0', help= 'which json file, for example fset0.json')
     parser.add_argument('--filter2', default = '2018-10', help= 'filter some month from thruster samples')
 
