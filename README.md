@@ -1,5 +1,7 @@
 This repository includes the source code for the paper "Whitening CNN-based rotor system fault diagnosis model features"
 
+https://doi.org/10.3390/app12094411
+
 The code directory contains the python files required to run the bearing fault tests.
 Thruster data could not be shared due to legal restrictions. The code related to thruster tests is however available for
 examination.
